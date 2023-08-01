@@ -1,0 +1,31 @@
+button{
+    background-color: rgb(2, 2, 58);
+    border: none;
+    width: 200px;
+    color: white;
+    display: flex;
+    margin-top: 2px;
+    gap: 10px;
+    padding: 15px 15px 15px 15px;
+}
+button:active{
+    background-color: initial;
+}
+button:focus{
+    background-color: rgb(158, 19, 158);
+}
+.folderlogo{
+    display: flex;
+    margin-left: 15px;
+    margin-top: -4px;   
+}
+.arrow-icon{
+   display: flex;
+   margin-top: 2px;
+   margin-left: 40px;
+   transition: transform 0.3s ease;
+}
+.arrow-icon.up{
+    transform: rotate(-90deg);
+}
+

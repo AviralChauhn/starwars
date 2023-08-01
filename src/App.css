@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{ 
+  margin-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar{
+  display: inline;
+  width: 200px;
+  height: 750px;
+  background-color: rgb(2, 2, 58);
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.accordian-content{
+  color: white;
+  align-content: center;
+}
+.intropic{
+  margin: -235px 75px 100px 607px;
+  background-color: white;
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 150px;
+  border-radius: 15px;
+}
+.intro{
+  margin: -245px 85px 100px 641px;
+  position: absolute;
+  align-content: baseline;
+}
+.grid{
+  color: rgb(242, 242, 245);
+  margin: -350px 350px;
+}
+.card_content{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sidebarhome{
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  margin-top: -890px;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordianbutton{
+  width: 175px;
+  justify-content: center;
+  margin-left: 15px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(70, 70, 113);
+  height: 45px;
+  border-radius: 10px;
+  box-shadow: 2px;
+}
+.togglebtn{
+  margin: -37px 650px;
+  height:50px;
+}
+.searchbar{
+  display: flex;
+  margin-left: 1200px;
+  margin-top: -50px;
+  height: 35px;
+  width: 185px;
+  border: solid white 2px;
+  background-color: rgb(2, 2, 58);
 }
